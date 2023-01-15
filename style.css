@@ -189,7 +189,10 @@ line-height: 40px;
 }
 
 /* feature */
-
+.vl {
+    border-left: 6px solid orange;
+    height: 110px;
+  }
 .facts{
     margin-top: 140px;
     margin-left: 250px;
@@ -257,4 +260,56 @@ footer{
     padding-top: 39px;
     padding-bottom: 39px;
     
+}
+
+/* Media Query */
+
+@media only screen and (max-width:576px) {
+   nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.explore{
+    margin-left: 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-img{
+    width: 100%;
+    margin-left: 0px;
+}
+.team-img{
+    display: flex;
+    flex-direction: column;
+} 
+    .feature-container{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .feature{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .fimage{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .btn-10{
+        margin-left: 0px;
+    }
+    .facts{
+        margin-left: 0px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+    }
 }

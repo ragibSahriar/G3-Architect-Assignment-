@@ -63,6 +63,10 @@ text-align: center;
 
 color: #FFFFFF;
 }
+.explore:hover{background-color: lightcoral;
+    border: 5px solid orange;}
+
+
 .banner-img{
     width: 1440px;
 height: 700px;
@@ -101,6 +105,9 @@ color: #727272;
     color: #FF900E;
 }
 .team-btn{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
     width: 180px;
 height: 64px;
 left: 1082px;
@@ -114,4 +121,140 @@ line-height: 23px;
 text-align: center;
 border: none;
 color: #FFFFFF;
+}
+.team-btn:hover{
+    background-color: lightgreen;
+    border: 5px solid orange;
+}
+
+/* feature you will love */
+
+.feature{
+    width: 1440px;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+.ftr-u{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.feature-title{
+    width: 586px;
+height: 121px;
+left: 240px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding: 10px;
+margin-top: 10px;
+}
+.feature-title{
+    margin-right: 90px;
+}
+.feature-image{
+    width: 708px;
+height: 982px;
+left: 972px;
+top: 2245px;
+}
+.btn-10{
+    margin-top: -400px;
+    margin-left: -50px;
+ width: 242px;
+height: 130px;
+left: 880px;
+top: 3104px;
+border: none;
+background: #FF900E;
+border-radius: 8px;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: #FFFFFF;
+}
+.exp{
+font-size: 25px;
+line-height: 40px;
+}
+
+.btn-10:hover{
+    background-color: lightgreen;
+    border: 5px solid orange;
+}
+
+.ft-p{
+    color: #727272;
+}
+
+/* feature */
+
+.facts{
+    margin-top: 140px;
+    margin-left: 250px;
+}
+.factsf{
+    font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+}
+
+.icon{
+    align-items: center;
+    border: 3px solid orange;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.icon:hover{
+    color: white;
+    background-color: gray;
+}
+.icons{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/* sponsore */
+
+.sponsores{
+    margin-top: 180px;
+    text-align: center;
+}
+.our-sp{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+
+.logo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logos{
+    
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      
+}
+
+/*-------- 
+   footer
+--------- */
+footer{
+    height:300px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.footerp{
+    margin-top: 150px;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    
 }

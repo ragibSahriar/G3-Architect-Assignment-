@@ -274,12 +274,17 @@ footer{
     margin-left: 20px;
 }
 .banner{
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.explore{
+    margin-top: 10px;
+}
 .banner-img{
     width: 100%;
+    height: 100%;
     margin-left: 0px;
 }
 .team-img{
@@ -313,6 +318,6 @@ footer{
         gap: 9px;
     }
     .feature-title{
-        width: 575px;
+        width: 550px;
     }
 }
